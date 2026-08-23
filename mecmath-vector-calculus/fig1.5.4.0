@@ -1,0 +1,63 @@
+%!PS
+%%BoundingBox: -18 -12 81 44 
+%%HiResBoundingBox: -17.24907 -11.5181 80.28764 43.3051 
+%%Creator: MetaPost 2.02
+%%CreationDate: 2026.08.23:1110
+%%Pages: 1
+%*Font: fourier-mlit 8.96631 9.96265 b5:8
+%*Font: pncri8r 9.26518 9.96265 4c:8c00008
+%*Font: pncb8r 9.96265 9.96265 76:c
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0.49814
+ 0 dtransform exch truncate exch idtransform pop setlinewidth
+ [3 3 ] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 30 40 moveto
+30 0 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+newpath 30 7 moveto
+23 7 lineto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 23 7 moveto
+23 0 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath -17 0 moveto
+80 0 lineto stroke
+newpath 15 0 moveto
+16.40947 2.03024 16.74156 4.61981 15.89 6.94 curveto
+14.81898 9.85811 12.10487 11.85133 9 12 curveto stroke
+7.3599 1.7422 moveto
+(\265) fourier-mlit 8.96631 fshow
+ 0 1.59402 dtransform truncate idtransform setlinewidth pop
+newpath 0 0 moveto
+29.3 39.6 lineto stroke
+newpath 27.60258 33.86882 moveto
+29.3 39.6 lineto
+24.31575 36.30077 lineto
+ closepath
+gsave fill grestore stroke
+newpath 0 0 moveto
+60 0 lineto stroke
+newpath 54.38298 -2.04445 moveto
+60 0 lineto
+54.38298 2.04445 lineto
+ closepath
+gsave fill grestore stroke
+ 0 3.48692 dtransform truncate idtransform setlinewidth pop
+newpath 0 0 moveto 0 0 rlineto stroke
+newpath 30 40 moveto 0 0 rlineto stroke
+73.91154 2.6949 moveto
+(L) pncri8r 9.26518 fshow
+52.95642 -8.44333 moveto
+(v) pncb8r 9.96265 fshow
+3.57166 17.55667 moveto
+(w) pncb8r 9.96265 fshow
+33.2989 16.6849 moveto
+(d) pncri8r 9.26518 fshow
+-3.9053 -9.7796 moveto
+(Q) pncri8r 9.26518 fshow
+33.1992 36.6949 moveto
+(P) pncri8r 9.26518 fshow
+showpage
+%%EOF

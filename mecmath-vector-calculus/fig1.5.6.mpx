@@ -1,0 +1,60 @@
+% Written by metapost version 2.02
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="pncr8r";
+_s("(",_n1,0.92999,0.0000,0.0000,);
+_n6="pncri8r";
+_s("x",_n6,0.93000,3.4838,0.0000,);
+_s("0",_n1,0.55800,8.1164,-1.4944,);
+_n5="pncr8r";
+_s(",",_n5,0.93000,11.7053,0.0000,);
+_s("y",_n6,0.93000,16.1564,0.0000,);
+_s("0",_n1,0.55800,20.3905,-1.4944,);
+_s(",",_n5,0.93000,23.9795,0.0000,);
+_s("z",_n6,0.93000,28.0320,0.0000,);
+_s("0",_n1,0.55800,32.4255,-1.4944,);
+_s(")",_n1,0.92999,36.0145,0.0000,);
+setbounds _p to (0,-1.9029)--(39.0998,-1.9029)--
+ (39.0998,6.7728)--(0,6.7728)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="pncr8r";
+_s("(",_n1,0.92999,0.0000,0.0000,);
+_n6="pncri8r";
+_s("x",_n6,0.93000,3.4838,0.0000,);
+_n5="pncr8r";
+_s(",",_n5,0.93000,8.2160,0.0000,);
+_s("y",_n6,0.93000,12.6671,0.0000,);
+_s(",",_n5,0.93000,17.2997,0.0000,);
+_s("z",_n6,0.93000,21.3522,0.0000,);
+_s(")",_n1,0.92999,25.8454,0.0000,);
+setbounds _p to (0,-1.9029)--(28.9306,-1.9029)--
+ (28.9306,6.7728)--(0,6.7728)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n9="pncb8r";
+_s("n",_n9,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(6.8244,0.0000)--
+ (6.8244,4.9315)--(0,4.9315)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n9="pncb8r";
+_s("r",_n9,1.00000,0.0000,0.0000,);
+setbounds _p to (0,0.0000)--(5.1706,0.0000)--
+ (5.1706,4.9315)--(0,4.9315)--cycle;
+_p endgroup
+mpxbreak

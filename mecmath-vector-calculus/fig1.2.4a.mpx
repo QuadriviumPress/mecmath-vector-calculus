@@ -1,0 +1,27 @@
+% Written by metapost version 2.02
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="pncb8r";
+_s("w",_n1,1.00000,0.0000,0.0000,);
+_n3="fourier-ms";
+_s(char197,_n3,0.92000,10.0743,0.0000,);
+_s("v",_n1,1.00000,17.8872,0.0000,);
+setbounds _p to (0,-0.1195)--(23.9743,-0.1195)--
+ (23.9743,5.1806)--(0,5.1806)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="pncb8r";
+_s("v",_n1,1.00000,0.0000,0.0000,);
+_n3="fourier-ms";
+_s(char197,_n3,0.92000,7.3048,0.0000,);
+_s("w",_n1,1.00000,15.1177,0.0000,);
+setbounds _p to (0,-0.1195)--(23.9743,-0.1195)--
+ (23.9743,5.1806)--(0,5.1806)--cycle;
+_p endgroup
+mpxbreak

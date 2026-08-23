@@ -1,0 +1,98 @@
+%!PS
+%%BoundingBox: -1 -21 151 63 
+%%HiResBoundingBox: -0.25 -20.25 150.25 62.46574 
+%%Creator: MetaPost 2.02
+%%CreationDate: 2026.08.23:1110
+%%Pages: 1
+%*Font: pncr8r 9.26518 9.96265 28:c8
+%*Font: pncri8r 9.26518 9.96265 78:e
+%*Font: pncb8r 9.96265 9.96265 6e:88
+%*Font: pncr8r 5.55914 9.96265 30:8
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.86 0.86 0.86 setrgbcolor
+newpath 0 0 moveto
+100 -20 lineto
+100 -20 lineto
+150 30 lineto
+150 30 lineto
+50 50 lineto
+50 50 lineto
+0 0 lineto
+ closepath fill
+ 0 0 0 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 0 0 moveto
+100 -20 lineto stroke
+newpath 100 -20 moveto
+150 30 lineto stroke
+newpath 150 30 moveto
+50 50 lineto stroke
+newpath 50 50 moveto
+0 0 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 95 22 moveto
+88 22 lineto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 88 22 moveto
+88 15 lineto stroke
+ 1.19551 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 95 15 moveto
+95 60 lineto stroke
+ 0 1.19551 dtransform truncate idtransform setlinewidth pop
+newpath 97.04437 54.3832 moveto
+95 60 lineto
+92.95563 54.3832 lineto
+ closepath
+gsave fill grestore stroke
+newpath 95 15 moveto
+31 15 lineto stroke
+newpath 36.61707 17.04446 moveto
+31 15 lineto
+36.61707 12.95554 lineto
+ closepath
+gsave fill grestore stroke
+75.4501 5.2272 moveto
+(\() pncr8r 9.26518 fshow
+78.9339 5.2272 moveto
+(x) pncri8r 9.26518 fshow
+83.5665 3.7328 moveto
+(0) pncr8r 5.55914 fshow
+87.15541 5.2272 moveto
+(,) pncr8r 9.26518 fshow
+91.6065 5.2272 moveto
+(y) pncri8r 9.26518 fshow
+95.8406 3.7328 moveto
+(0) pncr8r 5.55914 fshow
+99.42961 5.2272 moveto
+(,) pncr8r 9.26518 fshow
+103.4821 5.2272 moveto
+(z) pncri8r 9.26518 fshow
+107.87561 3.7328 moveto
+(0) pncr8r 5.55914 fshow
+111.4646 5.2272 moveto
+(\)) pncr8r 9.26518 fshow
+ 0 3 dtransform truncate idtransform setlinewidth pop
+newpath 95 15 moveto 0 0 rlineto stroke
+15.5347 5.2272 moveto
+(\() pncr8r 9.26518 fshow
+19.0185 5.2272 moveto
+(x) pncri8r 9.26518 fshow
+23.7507 5.2272 moveto
+(,) pncr8r 9.26518 fshow
+28.2018 5.2272 moveto
+(y) pncri8r 9.26518 fshow
+32.8344 5.2272 moveto
+(,) pncr8r 9.26518 fshow
+36.8869 5.2272 moveto
+(z) pncri8r 9.26518 fshow
+41.3801 5.2272 moveto
+(\)) pncr8r 9.26518 fshow
+newpath 30 15 moveto 0 0 rlineto stroke
+98 57.53424 moveto
+(n) pncb8r 9.96265 fshow
+57.4147 18 moveto
+(r) pncb8r 9.96265 fshow
+showpage
+%%EOF

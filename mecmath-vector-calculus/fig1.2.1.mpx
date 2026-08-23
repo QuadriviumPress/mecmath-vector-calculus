@@ -1,0 +1,66 @@
+% Written by metapost version 2.02
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="pncr8r";
+_s("2",_n1,0.92999,0.0000,0.0000,);
+_n3="pncb8r";
+_s("v",_n3,1.00000,5.1514,0.0000,);
+setbounds _p to (0,-0.1195)--(11.2385,-0.1195)--
+ (11.2385,6.3512)--(0,6.3512)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="pncr8r";
+_s("3",_n1,0.92999,0.0000,0.0000,);
+_n3="pncb8r";
+_s("v",_n3,1.00000,5.1514,0.0000,);
+setbounds _p to (0,-0.1195)--(11.2385,-0.1195)--
+ (11.2385,6.3512)--(0,6.3512)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="pncr8r";
+_s("0",_n1,0.92999,0.0000,0.0000,);
+_n7="pncr8r";
+_s(".",_n7,0.93000,5.1514,0.0000,);
+_s("5",_n1,0.92999,7.7317,0.0000,);
+_n3="pncb8r";
+_s("v",_n3,1.00000,12.8831,0.0000,);
+setbounds _p to (0,-0.1494)--(18.9702,-0.1494)--
+ (18.9702,6.3512)--(0,6.3512)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n10="fourier-ms";
+_s(char161,_n10,0.92000,0.0000,0.0000,);
+_n3="pncb8r";
+_s("v",_n3,1.00000,6.5953,0.0000,);
+setbounds _p to (0,-0.1195)--(12.6824,-0.1195)--
+ (12.6824,4.9315)--(0,4.9315)--cycle;
+_p endgroup
+mpxbreak
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n10="fourier-ms";
+_s(char161,_n10,0.92000,0.0000,0.0000,);
+_n1="pncr8r";
+_s("2",_n1,0.92999,6.5953,0.0000,);
+_n3="pncb8r";
+_s("v",_n3,1.00000,11.7466,0.0000,);
+setbounds _p to (0,-0.1195)--(17.8338,-0.1195)--
+ (17.8338,6.3512)--(0,6.3512)--cycle;
+_p endgroup
+mpxbreak

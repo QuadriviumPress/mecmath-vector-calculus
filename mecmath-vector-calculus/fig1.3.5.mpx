@@ -1,0 +1,11 @@
+% Written by metapost version 2.02
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n4="pncri8r";
+_s("L",_n4,0.93000,0.1992,0.0000,);
+setbounds _p to (0,0.0000)--(6.5753,0.0000)--
+ (6.5753,6.6102)--(0,6.6102)--cycle;
+_p endgroup
+mpxbreak

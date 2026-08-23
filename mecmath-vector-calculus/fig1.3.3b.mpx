@@ -1,0 +1,19 @@
+% Written by metapost version 2.02
+begingroup save _p,_r,_s,_n; picture _p; _p=nullpicture;
+string _n[];
+vardef _s(expr _t,_f,_m,_x,_y)(text _c)=
+  addto _p also _t infont _f scaled _m shifted (_x,_y) _c; enddef;
+_n1="pncr8r";
+_s("90",_n1,0.92999,0.0000,0.0000,);
+_n3="fourier-ms";
+_s(char177,_n3,0.69920,10.3028,3.6164,);
+_s(char199,_n3,0.92000,15.9885,0.0000,);
+_n8="fourier-mlit";
+_s(char181,_n8,0.90000,24.2884,0.0000,);
+_s(char183,_n3,0.92000,31.2733,0.0000,);
+_s("180",_n1,0.92999,39.5732,0.0000,);
+_s(char177,_n3,0.69920,55.0274,3.6164,);
+setbounds _p to (0,-0.1065)--(59.0084,-0.1065)--
+ (59.0084,7.0350)--(0,7.0350)--cycle;
+_p endgroup
+mpxbreak

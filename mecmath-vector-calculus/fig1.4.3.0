@@ -1,0 +1,101 @@
+%!PS
+%%BoundingBox: -10 -11 314 50 
+%%HiResBoundingBox: -9.7114 -10.61809 313.3873 49.92902 
+%%Creator: MetaPost 2.02
+%%CreationDate: 2026.08.23:1109
+%%Pages: 1
+%*Font: pncri8r 9.26518 9.96265 50:f000208
+%*Font: fourier-mlit 8.96631 9.96265 b5:8
+%*Font: pncb8r 9.96265 9.96265 76:c
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 0 0 moveto
+80 0 lineto stroke
+newpath 0 0 moveto
+30 40 lineto stroke
+ [3 3 ] 0 setdash
+newpath 80 0 moveto
+110 40 lineto stroke
+newpath 280 0 moveto
+310 40 lineto stroke
+newpath 30 40 moveto
+110 40 lineto stroke
+newpath 230 40 moveto
+310 40 lineto stroke
+ [] 0 setdash
+newpath 30 40 moveto
+80 0 lineto stroke
+newpath 230 40 moveto
+280 0 lineto stroke
+ 0.5 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 30 40 moveto
+30 0 lineto stroke
+newpath 230 40 moveto
+230 0 lineto stroke
+37.4745 -9.7796 moveto
+(b) pncri8r 9.26518 fshow
+33.2989 16.6849 moveto
+(h) pncri8r 9.26518 fshow
+233.2989 16.6849 moveto
+(h) pncri8r 9.26518 fshow
+7.3599 1.7422 moveto
+(\265) fourier-mlit 8.96631 fshow
+207.3599 1.7422 moveto
+(\265) fourier-mlit 8.96631 fshow
+26.66245 43 moveto
+(P) pncri8r 9.26518 fshow
+226.66245 43 moveto
+(P) pncri8r 9.26518 fshow
+-9.81099 -8.8796 moveto
+(Q) pncri8r 9.26518 fshow
+190.18901 -8.8796 moveto
+(Q) pncri8r 9.26518 fshow
+82.2992 -8.71019 moveto
+(R) pncri8r 9.26518 fshow
+282.2992 -8.71019 moveto
+(R) pncri8r 9.26518 fshow
+106.8119 43.14941 moveto
+(S) pncri8r 9.26518 fshow
+306.8119 43.14941 moveto
+(S) pncri8r 9.26518 fshow
+ 0.6 0.6 0.6 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
+newpath 30 7 moveto
+23 7 lineto stroke
+newpath 230 7 moveto
+223 7 lineto stroke
+ 0.5 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 23 7 moveto
+23 0 lineto stroke
+newpath 223 7 moveto
+223 0 lineto stroke
+ 0 0.5 dtransform truncate idtransform setlinewidth pop
+newpath 15 0 moveto
+16.40947 2.03024 16.74156 4.61981 15.89 6.94 curveto
+14.81898 9.85811 12.10487 11.85133 9 12 curveto stroke
+newpath 215 0 moveto
+216.40947 2.03024 216.74156 4.61981 215.89 6.94 curveto
+214.81898 9.85811 212.10487 11.85133 209 12 curveto stroke
+ 0 0 0 setrgbcolor 0 1.19551 dtransform truncate idtransform setlinewidth pop
+newpath 200 0 moveto
+280 0 lineto stroke
+newpath 274.38268 -2.04456 moveto
+280 0 lineto
+274.38268 2.04456 lineto
+ closepath
+gsave fill grestore stroke
+newpath 200 0 moveto
+230 40 lineto stroke
+newpath 228.2653 34.27956 moveto
+230 40 lineto
+224.9941 36.73296 lineto
+ closepath
+gsave fill grestore stroke
+236.95642 -7.88664 moveto
+(v) pncb8r 9.96265 fshow
+202.57166 19.55667 moveto
+(w) pncb8r 9.96265 fshow
+showpage
+%%EOF

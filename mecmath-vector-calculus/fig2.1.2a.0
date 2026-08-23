@@ -1,0 +1,47 @@
+%!PS
+%%BoundingBox: -70 -11 73 18 
+%%HiResBoundingBox: -69.98831 -10.22885 72.56535 17.5579 
+%%Creator: MetaPost 2.02
+%%CreationDate: 2026.08.23:1110
+%%Pages: 1
+%*Font: pncr8r 9.26518 9.96265 30:8
+%*Font: pncri8r 9.26518 9.96265 61:800001
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.4 0.4 0.4 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath -69.73831 0 moveto
+69.73831 0 lineto stroke
+ 0 0 0 setrgbcolor 0.5 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath -30 -2 moveto
+-30 2 lineto stroke
+newpath 0 -2 moveto
+0 2 lineto stroke
+-32.5757 -10.12234 moveto
+(0) pncr8r 9.26518 fshow
+67.83315 -9.12955 moveto
+(x) pncri8r 9.26518 fshow
+ 0 0.5 dtransform truncate idtransform setlinewidth pop
+newpath -58 10 moveto
+-1 10 lineto stroke
+newpath -4.69548 8.46924 moveto
+-1 10 lineto
+-4.69548 11.53076 lineto
+ closepath
+gsave fill grestore stroke
+newpath 50 10 moveto
+1 10 lineto stroke
+newpath 4.69557 11.53079 moveto
+1 10 lineto
+4.69557 8.46921 lineto
+ closepath
+gsave fill grestore stroke
+-2.61024 -9.12955 moveto
+(a) pncri8r 9.26518 fshow
+22.83315 13.14941 moveto
+(x) pncri8r 9.26518 fshow
+-31.16685 13.14941 moveto
+(x) pncri8r 9.26518 fshow
+showpage
+%%EOF

@@ -1,27 +1,23 @@
 # Mecmath Vector Calculus — Work Log
 
-Building an Eleventy website that renders the mecmath *Vector Calculus* textbook
-(Michael Corral) with the LaTeX source as ground truth, mirroring the
-`mecmath-trigonometry` project architecture, deployable to GitHub Pages under
-the `QuadriviumPress` org.
-
 ## Status
 
-- **Repository:** created
-- **LaTeX source:** not yet downloaded
-- **Build engine:** not started (will adapt from `mecmath-trigonometry`)
+- **Repository:** https://github.com/QuadriviumPress/mecmath-vector-calculus
+- **LaTeX source:** downloaded (`calc3book-1.0-src.tar.gz`, 107 files)
+- **Build engine:** ported from `mecmath-trigonometry`
+- **Site:** 55 pages, search index, book index (300 refs)
+- **Figures:** MetaPost `.mp` → `.0` compiled at build time; SVG conversion in progress
+- **Verify:** `npm run build && npm run verify` passes locally
+- **Deploy:** GitHub Pages on push to `main`
 
-## Planned steps
-
-1. Download `calc3book-1.0-src.tar.gz` into `mecmath-vector-calculus/`
-2. Inventory corpus (master `.tex`, chapters, figures, custom macros)
-3. Compare structure with `mecmath-trigonometry` (same author, similar LaTeX style)
-4. Copy and adapt Eleventy framework (`lib/`, `scripts/`, templates, CI)
-5. Handle TeX Live compatibility (upstream compiled with TeX Live 2011; may need shims)
-6. Deploy to `https://quadriviumpress.github.io/mecmath-vector-calculus/`
-
-## Upstream references
+## Source
 
 - Homepage: https://www.mecmath.net/
-- Latest PDF: VectorCalculus.pdf (2022-08-15)
-- Related: Elementary Calculus (prequel), Trigonometry (same author family)
+- Master: `calc3book.tex` (4 chapters + 3 appendices + gnupdl + History)
+- Heavy MetaPost figure usage (62 `.mp` files)
+
+## Next steps
+
+- Improve MetaPost `.0` → SVG pipeline for vector figures
+- Render bibliography section from `calc3book.bib`
+- Add chapter PDF generation once Playwright CI is confirmed

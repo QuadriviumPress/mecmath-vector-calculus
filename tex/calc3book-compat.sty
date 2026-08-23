@@ -1,0 +1,24 @@
+%%
+%% calc3book-compat.sty -- compile mecmath-vector-calculus on TeX Live 2023+
+%%
+\NeedsTeXFormat{LaTeX2e}[2020/10/01]
+\ProvidesPackage{calc3book-compat}[2026/08/23 v1.0 TeX Live 2023+ shims for calc3book.tex]
+
+\makeatletter
+
+\AddToHook{class/scrbook/after}{%
+  \DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}%
+  \DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}%
+  \DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}%
+  \DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}%
+  \DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}%
+  \DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}%
+  \DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}%
+}
+
+\AddToHook{package/phaistos/after}{%
+  \DeclareFontFamilySubstitution{LPH}{fnc}{cmr}%
+}
+
+\makeatother
+\endinput

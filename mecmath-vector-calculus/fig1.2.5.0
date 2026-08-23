@@ -1,0 +1,172 @@
+%!PS
+%%BoundingBox: -34 -10 150 71 
+%%HiResBoundingBox: -33.2803 -9.22885 149.68924 70.15569 
+%%Creator: MetaPost 2.02
+%%CreationDate: 2026.08.23:1109
+%%Pages: 1
+%*Font: pncri8r 9.26518 9.96265 76:f
+%*Font: pncr8r 9.26518 9.96265 30:8
+%*Font: fourier-ms 9.1656 9.96265 c5:8
+%*Font: pncb8r 9.96265 9.96265 76:c
+%*Font: pncr8r 7.04146 9.96265 31:c
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.4 0.4 0.4 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 0 0 moveto
+149.43924 0 lineto stroke
+newpath 145.74414 -1.5306 moveto
+149.43924 0 lineto
+145.74414 1.5306 lineto
+ closepath
+gsave fill grestore stroke
+ 0.5 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 0 0 moveto
+0 69.73831 lineto stroke
+ 0 0.5 dtransform truncate idtransform setlinewidth pop
+newpath 1.53078 66.04279 moveto
+0 69.73831 lineto
+-1.53078 66.04279 lineto
+ closepath
+gsave fill grestore stroke
+ 0 0 0 setrgbcolor
+144.83315 4.87045 moveto
+(x) pncri8r 9.26518 fshow
+5.13196 65.7472 moveto
+(y) pncri8r 9.26518 fshow
+-8.5757 -9.12234 moveto
+(0) pncr8r 9.26518 fshow
+ 0.6 0.6 0.6 setrgbcolor 0.5
+ 0 dtransform exch truncate exch idtransform pop setlinewidth
+ [3 3 ] 0 setdash
+newpath 40 0 moveto
+40 40 lineto stroke
+ 0 0.5 dtransform truncate idtransform setlinewidth pop
+newpath 0 40 moveto
+40 40 lineto stroke
+ 0.5 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 80 0 moveto
+80 20 lineto stroke
+ 0 0.5 dtransform truncate idtransform setlinewidth pop
+newpath 0 20 moveto
+80 20 lineto stroke
+ 0.5 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 120 0 moveto
+120 20 lineto stroke
+ 0 0.5 dtransform truncate idtransform setlinewidth pop
+newpath 0 60 moveto
+120 60 lineto stroke
+ 0.5 0 dtransform exch truncate exch idtransform pop setlinewidth [] 0 setdash
+newpath 120 20 moveto
+120 60 lineto stroke
+ 0 0.5 dtransform truncate idtransform setlinewidth pop
+newpath 80 20 moveto
+120 20 lineto stroke
+ 0 0 0 setrgbcolor
+-14.62619 38.54294 moveto
+(w) pncri8r 9.26518 fshow
+-7.4132 37.04854 moveto
+(2) pncr8r 7.04146 fshow
+-12.22519 18.54294 moveto
+(v) pncri8r 9.26518 fshow
+-7.4132 17.04854 moveto
+(2) pncr8r 7.04146 fshow
+34.2865 -7.4085 moveto
+(w) pncri8r 9.26518 fshow
+41.4995 -8.9029 moveto
+(1) pncr8r 7.04146 fshow
+75.487 -7.4085 moveto
+(v) pncri8r 9.26518 fshow
+80.299 -8.9029 moveto
+(1) pncr8r 7.04146 fshow
+105.05905 -6.8431 moveto
+(v) pncri8r 9.26518 fshow
+109.87105 -8.3375 moveto
+(1) pncr8r 7.04146 fshow
+115.50185 -6.8431 moveto
+(\305) fourier-ms 9.1656 fshow
+123.51395 -6.8431 moveto
+(w) pncri8r 9.26518 fshow
+130.72694 -8.3375 moveto
+(1) pncr8r 7.04146 fshow
+-33.0811 58.15689 moveto
+(v) pncri8r 9.26518 fshow
+-28.2691 56.66249 moveto
+(2) pncr8r 7.04146 fshow
+-22.6383 58.15689 moveto
+(\305) fourier-ms 9.1656 fshow
+-14.6262 58.15689 moveto
+(w) pncri8r 9.26518 fshow
+-7.41321 56.66249 moveto
+(2) pncr8r 7.04146 fshow
+123.1992 38.54295 moveto
+(w) pncri8r 9.26518 fshow
+130.4122 37.04855 moveto
+(2) pncr8r 7.04146 fshow
+94.2865 12.5915 moveto
+(w) pncri8r 9.26518 fshow
+101.4995 11.0971 moveto
+(1) pncr8r 7.04146 fshow
+ 0.6 0.6 0.6 setrgbcolor 0 1.19551 dtransform truncate idtransform setlinewidth pop
+newpath 80 20 moveto
+120 60 lineto stroke
+newpath 117.47385 54.58258 moveto
+120 60 lineto
+114.58258 57.47385 lineto
+ closepath
+gsave fill grestore stroke
+newpath 40 40 moveto
+120 60 lineto stroke
+newpath 115.04608 56.65396 moveto
+120 60 lineto
+114.05429 60.62115 lineto
+ closepath
+gsave fill grestore stroke
+ 0 0 0 setrgbcolor
+newpath 0 0 moveto
+80 20 lineto stroke
+newpath 75.04608 16.65396 moveto
+80 20 lineto
+74.05429 20.62115 lineto
+ closepath
+gsave fill grestore stroke
+newpath 0 0 moveto
+40 40 lineto stroke
+newpath 37.47385 34.58258 moveto
+40 40 lineto
+34.58258 37.47385 lineto
+ closepath
+gsave fill grestore stroke
+newpath 0 0 moveto
+120 60 lineto stroke
+newpath 115.89009 55.65916 moveto
+120 60 lineto
+114.06139 59.31657 lineto
+ closepath
+gsave fill grestore stroke
+ 0.6 0.6 0.6 setrgbcolor 0.09962
+ 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 113 20 moveto
+113 27 lineto stroke
+ 0 0.09962 dtransform truncate idtransform setlinewidth pop
+newpath 113 27 moveto
+120 27 lineto stroke
+ 0 0 0 setrgbcolor 0 2.49066 dtransform truncate idtransform setlinewidth pop
+newpath 0 0 moveto 0 0 rlineto stroke
+56.95642 7.55667 moveto
+(v) pncb8r 9.96265 fshow
+74.95642 50.55667 moveto
+(v) pncb8r 9.96265 fshow
+18.57166 27.55667 moveto
+(w) pncb8r 9.96265 fshow
+102.57166 37.55667 moveto
+(w) pncb8r 9.96265 fshow
+48.01285 27.46945 moveto
+(v) pncb8r 9.96265 fshow
+55.31764 27.46945 moveto
+(\305) fourier-ms 9.1656 fshow
+63.13055 27.46945 moveto
+(w) pncb8r 9.96265 fshow
+showpage
+%%EOF

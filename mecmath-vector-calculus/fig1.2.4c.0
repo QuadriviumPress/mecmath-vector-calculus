@@ -1,0 +1,79 @@
+%!PS
+%%BoundingBox: -2 -10 121 43 
+%%HiResBoundingBox: -1.24533 -9.44333 120.59776 42.64232 
+%%Creator: MetaPost 2.02
+%%CreationDate: 2026.08.23:1109
+%%Pages: 1
+%*Font: pncb8r 9.96265 9.96265 76:c
+%*Font: fourier-ms 9.1656 9.96265 a1:8000000008
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0 1.19551 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 0 0 moveto
+80 0 lineto stroke
+newpath 74.38268 -2.04456 moveto
+80 0 lineto
+74.38268 2.04456 lineto
+ closepath
+gsave fill grestore stroke
+newpath 0 0 moveto
+40 40 lineto stroke
+newpath 37.47385 34.58258 moveto
+40 40 lineto
+34.58258 37.47385 lineto
+ closepath
+gsave fill grestore stroke
+ [3 3 ] 0 setdash
+newpath 80 0 moveto
+120 40 lineto stroke
+ [] 0 setdash
+newpath 117.47385 34.58258 moveto
+120 40 lineto
+114.58258 37.47385 lineto
+ closepath
+gsave fill grestore stroke
+ [3 3 ] 0 setdash
+newpath 40 40 moveto
+120 40 lineto stroke
+ [] 0 setdash
+newpath 114.38268 37.95544 moveto
+120 40 lineto
+114.38268 42.04456 lineto
+ closepath
+gsave fill grestore stroke
+newpath 0 0 moveto
+120 40 lineto stroke
+newpath 115.3177 36.2842 moveto
+120 40 lineto
+114.02467 40.16328 lineto
+ closepath
+gsave fill grestore stroke
+newpath 40 40 moveto
+80 0 lineto stroke
+newpath 74.58258 2.52615 moveto
+80 0 lineto
+77.47385 5.41742 lineto
+ closepath
+gsave fill grestore stroke
+ 0 2.49066 dtransform truncate idtransform setlinewidth pop
+newpath 0 0 moveto 0 0 rlineto stroke
+36.95642 -9.44333 moveto
+(v) pncb8r 9.96265 fshow
+8.57166 17.55667 moveto
+(w) pncb8r 9.96265 fshow
+63.01285 30.46945 moveto
+(v) pncb8r 9.96265 fshow
+70.31764 30.46945 moveto
+(\305) fourier-ms 9.1656 fshow
+78.13055 30.46945 moveto
+(w) pncb8r 9.96265 fshow
+63.01285 7.594 moveto
+(v) pncb8r 9.96265 fshow
+70.31764 7.594 moveto
+(\241) fourier-ms 9.1656 fshow
+78.13055 7.594 moveto
+(w) pncb8r 9.96265 fshow
+showpage
+%%EOF

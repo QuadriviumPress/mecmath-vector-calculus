@@ -1,0 +1,68 @@
+%!PS
+%%BoundingBox: -43 -3 70 43 
+%%HiResBoundingBox: -42.42834 -2.64226 69.5042 42.44331 
+%%Creator: MetaPost 2.02
+%%CreationDate: 2026.08.23:1109
+%%Pages: 1
+%*Font: pncr8r 9.26518 9.96265 30:c0c
+%*Font: fourier-ms 6.96591 9.96265 b1:8
+%*Font: fourier-mlit 8.96631 9.96265 b5:8
+%*Font: pncb8r 9.96265 9.96265 76:c
+%*Font: fourier-ms 9.1656 9.96265 b7:80008
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.6 0.6 0.6 setrgbcolor 0 0.49814 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 25 0 moveto
+24.99852 3.88092 24.09473 7.70836 22.36 11.18 curveto
+20.62512 14.65193 18.10648 17.67316 15 20 curveto
+10.67087 23.24265 5.40889 24.99889 0 25 curveto
+-5.40944 25.00113 -10.67313 23.24657 -15 20 curveto stroke
+newpath -12.55328 23.16464 moveto
+-13.44781 22.18161 -14.26671 21.1241 -15 20 curveto
+-13.71571 20.38976 -12.40863 20.67346 -11.09152 20.8515 curveto
+ closepath
+gsave fill grestore stroke
+newpath 23.33455 3.6369 moveto
+23.98387 2.47449 24.54137 1.25862 25 0 curveto
+25.45769 1.25896 25.81218 2.5487 26.06197 3.85657 curveto
+ closepath
+gsave fill grestore stroke
+ 0 0 0 setrgbcolor 0 1.19551 dtransform truncate idtransform setlinewidth pop
+newpath 0 0 moveto
+50 0 lineto stroke
+newpath 44.38286 -2.0445 moveto
+50 0 lineto
+44.38286 2.0445 lineto
+ closepath
+gsave fill grestore stroke
+newpath 0 0 moveto
+-30 40 lineto stroke
+newpath -24.9941 36.73296 moveto
+-30 40 lineto
+-28.2653 34.27956 lineto
+ closepath
+gsave fill grestore stroke
+ 0 2.49066 dtransform truncate idtransform setlinewidth pop
+newpath 0 0 moveto 0 0 rlineto stroke
+10.49579 26.53575 moveto
+(90) pncr8r 9.26518 fshow
+20.79858 30.15215 moveto
+(\261) fourier-ms 6.96591 fshow
+26.48428 26.53575 moveto
+(\307) fourier-ms 9.1656 fshow
+34.7842 26.53575 moveto
+(\265) fourier-mlit 8.96631 fshow
+41.76909 26.53575 moveto
+(\267) fourier-ms 9.1656 fshow
+50.06898 26.53575 moveto
+(180) pncr8r 9.26518 fshow
+65.5232 30.15215 moveto
+(\261) fourier-ms 6.96591 fshow
+52.95642 -2.44333 moveto
+(v) pncb8r 9.96265 fshow
+-42.42834 37.55667 moveto
+(w) pncb8r 9.96265 fshow
+showpage
+%%EOF

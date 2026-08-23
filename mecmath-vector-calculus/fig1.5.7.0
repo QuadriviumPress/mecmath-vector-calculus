@@ -1,0 +1,123 @@
+%!PS
+%%BoundingBox: -1 -21 154 67 
+%%HiResBoundingBox: -0.25 -20.25 153.4186 66.15689 
+%%Creator: MetaPost 2.02
+%%CreationDate: 2026.08.23:1110
+%%Pages: 1
+%*Font: pncri8r 9.26518 9.96265 51:e
+%*Font: pncb8r 9.96265 9.96265 6e:8
+%*Font: fourier-ms 9.1656 9.96265 21:80000000000000000000000000000000a000000004
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.86 0.86 0.86 setrgbcolor
+newpath 0 0 moveto
+100 -20 lineto
+100 -20 lineto
+150 30 lineto
+150 30 lineto
+50 50 lineto
+50 50 lineto
+0 0 lineto
+ closepath fill
+ 0 0 0 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 0 0 moveto
+100 -20 lineto stroke
+newpath 100 -20 moveto
+150 30 lineto stroke
+newpath 150 30 moveto
+50 50 lineto stroke
+newpath 50 50 moveto
+0 0 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath 95 22 moveto
+88 22 lineto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 88 22 moveto
+88 15 lineto stroke
+ 1.19551 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 95 15 moveto
+95 60 lineto stroke
+ 0 1.19551 dtransform truncate idtransform setlinewidth pop
+newpath 97.04437 54.3832 moveto
+95 60 lineto
+92.95563 54.3832 lineto
+ closepath
+gsave fill grestore stroke
+newpath 95 15 moveto
+31 15 lineto stroke
+newpath 36.61707 17.04446 moveto
+31 15 lineto
+36.61707 12.95554 lineto
+ closepath
+gsave fill grestore stroke
+newpath 95 15 moveto
+80.4 -9 lineto stroke
+newpath 81.57265 -3.13858 moveto
+80.4 -9 lineto
+85.06596 -5.2637 lineto
+ closepath
+gsave fill grestore stroke
+97.9004 12.47945 moveto
+(Q) pncri8r 9.26518 fshow
+ 0 3 dtransform truncate idtransform setlinewidth pop
+newpath 95 15 moveto 0 0 rlineto stroke
+26.4184 5.3898 moveto
+(R) pncri8r 9.26518 fshow
+newpath 30 15 moveto 0 0 rlineto stroke
+71.32462 -7.75061 moveto
+(S) pncri8r 9.26518 fshow
+newpath 80 -10 moveto 0 0 rlineto stroke
+98 55.58159 moveto
+(n) pncb8r 9.96265 fshow
+106.5291 55.58159 moveto
+(\306) fourier-ms 9.1656 fshow
+114.829 62.36119 moveto
+(\241) fourier-ms 9.1656 fshow
+117.8328 62.36119 moveto
+(\241) fourier-ms 9.1656 fshow
+120.8364 62.36119 moveto
+(!) fourier-ms 9.1656 fshow
+114.7294 55.58159 moveto
+(Q) pncri8r 9.26518 fshow
+122.6397 55.58159 moveto
+(R) pncri8r 9.26518 fshow
+130.83 55.58159 moveto
+(\243) fourier-ms 9.1656 fshow
+131.0249 55.82509 moveto
+(\243) fourier-ms 9.1656 fshow
+131.2197 55.58159 moveto
+(\243) fourier-ms 9.1656 fshow
+139.0325 62.36119 moveto
+(\241) fourier-ms 9.1656 fshow
+141.6428 62.36119 moveto
+(\241) fourier-ms 9.1656 fshow
+144.2529 62.36119 moveto
+(!) fourier-ms 9.1656 fshow
+138.9329 55.58159 moveto
+(Q) pncri8r 9.26518 fshow
+146.8432 55.58159 moveto
+(S) pncri8r 9.26518 fshow
+52.41345 26.5181 moveto
+(\241) fourier-ms 9.1656 fshow
+55.41725 26.5181 moveto
+(\241) fourier-ms 9.1656 fshow
+58.42096 26.5181 moveto
+(!) fourier-ms 9.1656 fshow
+52.31386 19.7385 moveto
+(Q) pncri8r 9.26518 fshow
+60.22415 19.7385 moveto
+(R) pncri8r 9.26518 fshow
+92.80699 2.36119 moveto
+(\241) fourier-ms 9.1656 fshow
+95.4173 2.36119 moveto
+(\241) fourier-ms 9.1656 fshow
+98.02739 2.36119 moveto
+(!) fourier-ms 9.1656 fshow
+92.7074 -4.41841 moveto
+(Q) pncri8r 9.26518 fshow
+100.61769 -4.41841 moveto
+(S) pncri8r 9.26518 fshow
+showpage
+%%EOF

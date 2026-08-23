@@ -1,0 +1,72 @@
+%!PS
+%%BoundingBox: -21 -17 84 43 
+%%HiResBoundingBox: -20.24907 -16.44333 83.28764 42.44331 
+%%Creator: MetaPost 2.02
+%%CreationDate: 2026.08.23:1109
+%%Pages: 1
+%*Font: pncri8r 9.26518 9.96265 4c:8
+%*Font: pncb8r 9.96265 9.96265 75:e
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor 0.49814
+ 0 dtransform exch truncate exch idtransform pop setlinewidth
+ [3 3 ] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath 30 40 moveto
+30 0 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop [] 0 setdash
+newpath 30 7 moveto
+23 7 lineto stroke
+ 0.49814 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 23 7 moveto
+23 0 lineto stroke
+ 0 0.49814 dtransform truncate idtransform setlinewidth pop
+newpath -20 0 moveto
+80 0 lineto stroke
+ 0 0.99626 dtransform truncate idtransform setlinewidth pop
+newpath 15 -8 moveto
+16.3192 -6.6808 18.13335 -6 20 -6 curveto
+25 -6 lineto
+27.24663 -6 29.82617 -5.9868 30 -4 curveto stroke
+newpath 15 -8 moveto
+13.6808 -6.6808 11.86665 -6 10 -6 curveto
+5 -6 lineto
+2.75337 -6 0.17383 -5.9868 0 -4 curveto stroke
+ 0 1.99252 dtransform truncate idtransform setlinewidth pop
+newpath 0 0 moveto
+30 40 lineto stroke
+newpath 28.2653 34.27956 moveto
+30 40 lineto
+24.9941 36.73296 lineto
+ closepath
+gsave fill grestore stroke
+newpath 0 0 moveto
+60 0 lineto stroke
+newpath 54.38298 -2.04445 moveto
+60 0 lineto
+54.38298 2.04445 lineto
+ closepath
+gsave fill grestore stroke
+ 0 3.48692 dtransform truncate idtransform setlinewidth pop
+newpath 0 0 moveto 0 0 rlineto stroke
+ 0.6 0.6 0.6 setrgbcolor 0 0.59776 dtransform truncate idtransform setlinewidth pop
+newpath 0 0 moveto
+30 0 lineto stroke
+newpath 24.38298 -2.04445 moveto
+30 0 lineto
+24.38298 2.04445 lineto
+ closepath
+gsave fill grestore stroke
+ 0 1.4944 dtransform truncate idtransform setlinewidth pop
+newpath 0 0 moveto 0 0 rlineto stroke
+ 0 0 0 setrgbcolor
+76.91154 2.6949 moveto
+(L) pncri8r 9.26518 fshow
+51.57166 -8.44333 moveto
+(w) pncb8r 9.96265 fshow
+34.95642 37.55667 moveto
+(v) pncb8r 9.96265 fshow
+11.5878 -16.44333 moveto
+(u) pncb8r 9.96265 fshow
+showpage
+%%EOF

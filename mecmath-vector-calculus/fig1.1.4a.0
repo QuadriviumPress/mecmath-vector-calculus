@@ -1,0 +1,76 @@
+%!PS
+%%BoundingBox: -70 -12 73 16 
+%%HiResBoundingBox: -69.98831 -11.25905 72.56535 15.3138 
+%%Creator: MetaPost 2.02
+%%CreationDate: 2026.08.23:1109
+%%Pages: 1
+%*Font: pncr8r 9.26518 9.96265 30:8
+%*Font: pncri8r 9.26518 9.96265 50:f0000000008
+%*Font: fourier-ms 9.1656 9.96265 21:800000000000000000000000000000008
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0.4 0.4 0.4 setrgbcolor 0 0.5 dtransform truncate idtransform setlinewidth pop
+ [] 0 setdash 1 setlinecap 1 setlinejoin 10 setmiterlimit
+newpath -69.73831 0 moveto
+69.73831 0 lineto stroke
+ 0 0 0 setrgbcolor 0.5 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath -30 -2 moveto
+-30 2 lineto stroke
+newpath 0 -2 moveto
+0 2 lineto stroke
+newpath 50 -2 moveto
+50 2 lineto stroke
+newpath -20 -2 moveto
+-20 2 lineto stroke
+newpath -58 -2 moveto
+-58 2 lineto stroke
+-32.5757 -10.12234 moveto
+(0) pncr8r 9.26518 fshow
+67.83315 -9.12955 moveto
+(x) pncri8r 9.26518 fshow
+ 0 1.4944 dtransform truncate idtransform setlinewidth pop
+newpath -20 0 moveto
+-58 0 lineto stroke
+newpath -52.38293 2.04446 moveto
+-58 0 lineto
+-52.38293 -2.04446 lineto
+ closepath
+gsave fill grestore stroke
+newpath 0 0 moveto
+50 0 lineto stroke
+newpath 44.38286 -2.0445 moveto
+50 0 lineto
+44.38286 2.0445 lineto
+ closepath
+gsave fill grestore stroke
+-3.33755 -10.3051 moveto
+(P) pncri8r 9.26518 fshow
+46.0947 -9.52055 moveto
+(Q) pncri8r 9.26518 fshow
+-23.5816 -10.2304 moveto
+(R) pncri8r 9.26518 fshow
+-61.1881 -10.3151 moveto
+(S) pncri8r 9.26518 fshow
+17.65755 11.5181 moveto
+(\241) fourier-ms 9.1656 fshow
+20.41725 11.5181 moveto
+(\241) fourier-ms 9.1656 fshow
+23.17685 11.5181 moveto
+(!) fourier-ms 9.1656 fshow
+17.85675 4.7385 moveto
+(P) pncri8r 9.26518 fshow
+24.63135 4.7385 moveto
+(Q) pncri8r 9.26518 fshow
+-46.1681 9.92902 moveto
+(\241) fourier-ms 9.1656 fshow
+-43.5827 9.92902 moveto
+(\241) fourier-ms 9.1656 fshow
+-40.99751 9.92902 moveto
+(!) fourier-ms 9.1656 fshow
+-45.9689 3.14941 moveto
+(R) pncri8r 9.26518 fshow
+-38.40721 3.14941 moveto
+(S) pncri8r 9.26518 fshow
+showpage
+%%EOF
