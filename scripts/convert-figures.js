@@ -143,10 +143,15 @@ function copyTikzDependencies(content, workDir) {
     const base = m[1].trim();
     for (const ext of ['', '.eps', '.0', '.pdf', '.png']) {
       const src = path.join(srcDir, base + ext);
-      if (fs.existsSync(src)) {
-        fs.copyFileSync(src, path.join(workDir, path.basename(src)));
-        break;
+      if (!fs.existsSync(src)) continue;
+      const destName = path.basename(src);
+      fs.copyFileSync(src, path.join(workDir, destName));
+      if (destName.endsWith('.eps') || destName.endsWith('.0')) {
+        const pdfName = destName.replace(/\.(eps|0)$/, '') + '-eps-converted-to.pdf';
+        const pdfPath = path.join(workDir, pdfName);
+        if (!fs.existsSync(pdfPath)) epsToPdf(src, pdfPath);
       }
+      break;
     }
   }
 }
@@ -217,7 +222,11 @@ function compileAsset(asset) {
       }
       const eps = path.join(workDir, `${asset.file}.eps`);
       const pdf = path.join(workDir, `${asset.file}.pdf`);
-      if (fs.existsSync(eps)) epsToPdf(eps, pdf);
+      const convertedPdf = path.join(workDir, `${asset.file}-eps-converted-to.pdf`);
+      if (fs.existsSync(eps)) {
+        epsToPdf(eps, pdf);
+        if (fs.existsSync(pdf)) fs.copyFileSync(pdf, convertedPdf);
+      }
       fs.writeFileSync(path.join(workDir, 'figure.tex'), gnuplotStandalone(asset.file));
       const res = pdflatexToSvg(workDir, 'figure.tex', outSvg);
       if (!res.ok) {
