@@ -16,7 +16,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { collectBookAssets, tikzStandalone, gnuplotStandalone } from '../lib/figures.js';
+import { collectBookAssets, tikzStandalone, gnuplotStandalone, imageStandalone } from '../lib/figures.js';
 import { generatedFiguresDir, srcRoot } from '../lib/paths.js';
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -55,6 +55,11 @@ if (!hasPdflatex || !hasDvisvgm) {
 
 fs.mkdirSync(outDir, { recursive: true });
 
+const vendoredMetapost = path.join(root, 'vendor', 'metapost');
+const metapostInputs = fs.existsSync(vendoredMetapost)
+  ? `${vendoredMetapost}${path.sep}//:`
+  : '';
+
 /** Compile MetaPost sources (.mp → .0) when mpost is available. */
 function compileMetaPost() {
   if (!toolOk('mpost')) {
@@ -69,7 +74,10 @@ function compileMetaPost() {
     const out0 = path.join(srcDir, `${base}.0`);
     const mpMtime = fs.statSync(mpPath).mtimeMs;
     if (fs.existsSync(out0) && fs.statSync(out0).mtimeMs >= mpMtime) continue;
-    const res = run('mpost', [mp], srcDir, { TEX: 'latex' });
+    const res = run('mpost', ['-tex=latex', mp], srcDir, {
+      TEX: 'latex',
+      MPINPUTS: metapostInputs,
+    });
     if (res.status === 0 && fs.existsSync(out0)) built += 1;
   }
   if (built > 0) console.log(`[figures] compiled ${built} MetaPost figure(s)`);
@@ -111,15 +119,14 @@ function isFresh(asset, ext) {
   return deps.every(f => !fs.existsSync(f) || fs.statSync(f).mtimeMs <= outMtime);
 }
 
-function pdflatexToSvg(workDir, texName, outSvg) {
+function pdflatexToSvg(workDir, texName, outSvg, { haltOnError = true } = {}) {
   const texPath = path.join(workDir, texName);
-  const res = run('pdflatex', ['-interaction=nonstopmode', '-halt-on-error', texName], workDir);
-  if (res.status !== 0) {
-    return { ok: false, stderr: (res.stdout + res.stderr).trim().slice(-800) };
-  }
+  const args = ['-interaction=nonstopmode', texName];
+  if (haltOnError) args.splice(1, 0, '-halt-on-error');
+  const res = run('pdflatex', args, workDir);
   const pdf = texPath.replace(/\.tex$/, '.pdf');
   if (!fs.existsSync(pdf)) {
-    return { ok: false, stderr: 'pdflatex produced no PDF' };
+    return { ok: false, stderr: (res.stdout + res.stderr).trim().slice(-800) || 'pdflatex produced no PDF' };
   }
   const dvi = run('dvisvgm', ['--pdf', ...DVISVGM_OPTS, '-o', outSvg, pdf], workDir);
   if (dvi.status !== 0) {
@@ -129,6 +136,19 @@ function pdflatexToSvg(workDir, texName, outSvg) {
     return { ok: false, stderr: 'dvisvgm produced no SVG' };
   }
   return { ok: true };
+}
+
+function copyTikzDependencies(content, workDir) {
+  for (const m of content.matchAll(/\\includegraphics(?:\[[^\]]*\])?\{([^}]+)\}/g)) {
+    const base = m[1].trim();
+    for (const ext of ['', '.eps', '.0', '.pdf', '.png']) {
+      const src = path.join(srcDir, base + ext);
+      if (fs.existsSync(src)) {
+        fs.copyFileSync(src, path.join(workDir, path.basename(src)));
+        break;
+      }
+    }
+  }
 }
 
 function epsToPdf(eps, pdf) {
@@ -175,6 +195,7 @@ function compileAsset(asset) {
   try {
     if (asset.kind === 'tikz') {
       fs.writeFileSync(path.join(workDir, 'figure.tex'), tikzStandalone(asset.content));
+      copyTikzDependencies(asset.content, workDir);
       const res = pdflatexToSvg(workDir, 'figure.tex', outSvg);
       if (!res.ok) {
         failures.push({ id: asset.id, kind: asset.kind, stderr: res.stderr });
@@ -222,13 +243,32 @@ function compileAsset(asset) {
         path.join(srcDir, `${asset.file}.eps`),
         path.join(srcDir, `${asset.file}.0`),
       ];
-      const eps = candidates.find(f => fs.existsSync(f));
-      if (!eps) {
+      const srcFile = candidates.find(f => fs.existsSync(f));
+      if (!srcFile) {
         failures.push({ id: asset.id, kind: asset.kind, file: asset.file, stderr: 'missing EPS/MP output' });
         return;
       }
+
+      const includeName = path.basename(srcFile);
+      fs.copyFileSync(srcFile, path.join(workDir, includeName));
+      const isMpZero = includeName.endsWith('.0');
+      const includeArg = isMpZero
+        ? includeName.slice(0, -2)
+        : includeName.endsWith('.eps')
+          ? includeName.slice(0, -4)
+          : includeName;
+      const includeOpts = asset.options
+        || (isMpZero ? 'type=eps,ext=.0' : '');
+      fs.writeFileSync(path.join(workDir, 'figure.tex'), imageStandalone(includeArg, includeOpts));
+      const res = pdflatexToSvg(workDir, 'figure.tex', outSvg, { haltOnError: false });
+      if (res.ok && !svgIsEmpty(outSvg)) {
+        converted += 1;
+        return;
+      }
+      fs.rmSync(outSvg, { force: true });
+
       const tmpPdf = path.join(workDir, 'image.pdf');
-      if (epsToPdf(eps, tmpPdf)) {
+      if (epsToPdf(srcFile, tmpPdf)) {
         const dvi = run('dvisvgm', ['--pdf', ...DVISVGM_OPTS, '-o', outSvg, tmpPdf], workDir);
         if (dvi.status === 0 && fs.existsSync(outSvg) && !svgIsEmpty(outSvg)) {
           converted += 1;
@@ -236,11 +276,16 @@ function compileAsset(asset) {
         }
         fs.rmSync(outSvg, { force: true });
       }
-      if (epsToPng(eps, outPng)) {
+      if (epsToPng(srcFile, outPng)) {
         converted += 1;
         return;
       }
-      failures.push({ id: asset.id, kind: asset.kind, file: asset.file, stderr: 'EPS rasterize failed' });
+      failures.push({
+        id: asset.id,
+        kind: asset.kind,
+        file: asset.file,
+        stderr: res.stderr || 'EPS rasterize failed',
+      });
     }
   } finally {
     fs.rmSync(workDir, { recursive: true, force: true });
