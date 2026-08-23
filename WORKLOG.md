@@ -13,6 +13,7 @@
 ## Source
 
 - Homepage: https://www.mecmath.net/
+- LibreTexts: https://math.libretexts.org/Bookshelves/Calculus/Vector_Calculus_(Corral)
 - Master: `calc3book.tex` (4 chapters + 3 appendices + gnupdl + History)
 - Heavy MetaPost figure usage (62 `.mp` files)
 

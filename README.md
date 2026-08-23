@@ -5,6 +5,7 @@ LaTeX source to a searchable, offline-capable web textbook.
 
 - **Repository:** https://github.com/QuadriviumPress/mecmath-vector-calculus
 - **Original text:** https://www.mecmath.net/
+- **LibreTexts edition:** https://math.libretexts.org/Bookshelves/Calculus/Vector_Calculus_(Corral)
 - **License:** [GNU FDL 1.2](https://www.gnu.org/licenses/old-licenses/fdl-1.2.html)
 
 ## How it works

@@ -10,4 +10,10 @@ export default {
   baseUrl: `https://quadriviumpress.github.io${config.pathPrefix.replace(/\/+$/, '')}`,
   repositoryUrl: config.repositoryUrl,
   sourceUrl: config.sourceUrl,
+  sourceLabel: config.sourceLabel,
+  libreTextsUrl: config.libreTextsUrl,
+  libreTextsLabel: config.libreTextsLabel,
+  license: config.license,
+  licenseUrl: config.licenseUrl,
+  licenseLabel: config.licenseLabel,
 };
