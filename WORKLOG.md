@@ -17,6 +17,15 @@
 - Master: `calc3book.tex` (4 chapters + 3 appendices + gnupdl + History)
 - Heavy MetaPost figure usage (62 `.mp` files)
 
+## Math rendering
+
+`assets/js/math-config.js` holds the MathJax mirror of the `calc3book.tex`
+preamble (`\Dotprod`, `\Crossprod`, `\vecthree`, `\lineintvec`, …).
+`npm run verify:math` typesets every math span in `_site` with that exact file
+and fails on any control sequence MathJax cannot resolve, plus any backslash
+command left in the prose; `npm run verify` runs it too, so CI covers it. When
+the upstream preamble grows a macro, add it to the config or the check goes red.
+
 ## Next steps
 
 - Improve MetaPost `.0` → SVG pipeline for vector figures
