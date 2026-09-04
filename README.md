@@ -29,7 +29,7 @@ Requires Node ≥ 22. For figure conversion also install TeX Live plus
 `ghostscript`, `dvisvgm`, `mpost`, and `mupdf-tools`.
 
 ```sh
-npm install
+npm ci
 npm run update:vendor
 npm run build
 npm run verify
